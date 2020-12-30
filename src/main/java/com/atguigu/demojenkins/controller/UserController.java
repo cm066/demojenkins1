@@ -28,4 +28,13 @@ public class UserController {
     public String delete(){
         return "ok";
     }
+
+    /**
+     * 这是分支新增的方法的第二方法
+     * @return
+     */
+    @DeleteMapping
+    public String delete1(){
+        return "ok";
+    }
 }
